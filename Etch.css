@@ -1,0 +1,14 @@
+#box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-color: black;
+    outline: 1px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    column-gap: 0px;
+    gap: 0px;
+}
